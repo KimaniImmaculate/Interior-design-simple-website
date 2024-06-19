@@ -9,6 +9,7 @@
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
     background-size: contain;
     background-position: center;
+    
 }
 .navbar{
     width: 85%;
@@ -101,4 +102,47 @@ button:hover span{
 }
 button:hover{
     border: none;
+}
+@media (max-width: 768px) {
+    .logo {
+        margin-top: -10px; /* Adjusted logo size for smaller screens */
+    }
+    .content h1 {
+        font-size: 40px;
+    }
+    .content p {
+        padding: 0 20px;
+    }
+    button {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 100px; /* Further reduced logo size for smaller screens */
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar ul {
+        margin: 10px 0;
+    }
+    .navbar ul li {
+        margin: 5px 0;
+        display: inline-block;
+        font-size: 11px;
+    }
+    .content h1 {
+        font-size: 30px;
+    }
+    .content p {
+        font-size: 14px;
+    }
+    button {
+        width: 120px;
+        padding: 10px 0;
+        font-size: 14px;
+    }
 }

@@ -106,6 +106,8 @@ button:hover{
 @media (max-width: 768px) {
     .logo {
         margin-top: -10px; /* Adjusted logo size for smaller screens */
+        margin-left: -230px;
+        width: 120px;
     }
     .content h1 {
         font-size: 40px;
@@ -132,7 +134,7 @@ button:hover{
     .navbar ul li {
         margin: 5px 0;
         display: inline-block;
-        font-size: 11px;
+        font-size: 11px;    
     }
     .content h1 {
         font-size: 30px;
